@@ -6,6 +6,6 @@ export const getTitleElement = () => {
 
 export const getInputElement = () => {
   const inputElem = document.querySelector("input[type='text']");
-  console.log(inputElem);
+  console.dir(inputElem);
   return inputElem;
 };
