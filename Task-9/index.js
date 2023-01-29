@@ -18,4 +18,3 @@ export const finishList = () => {
   finishListElem4.textContent = '6';
   listItemElem.after(finishListElem4);
 };
-finishList();
