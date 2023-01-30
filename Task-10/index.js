@@ -1,4 +1,4 @@
-const finishForm = () => {
+export const finishForm = () => {
   const loginElem = document.querySelector('.login-form');
 
   const inputElem = document.createElement('input');
